@@ -1,0 +1,559 @@
+*{
+    box-sizing: border-box;
+}
+
+.image, .description{
+    display:inline-block;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family:'Emilea';
+}
+
+p{
+    font-family:'Futura LT';
+}
+
+.description h3{
+    font-size:40px;
+    width:450px;
+}
+
+.description p{
+    width:450px;
+    margin-top:20px;
+}
+
+#modernism .description{
+    padding-top: 100px;
+    position: relative;
+    right: 100px;
+}
+
+#modernism .image img{
+    border-radius:0% 0% 50% 0%;
+    position: relative;
+    left: 100px;
+    top: -280px;
+}
+
+#Andrew-James .image img{
+    transform: rotate(45deg);
+}
+
+#Andrew-James .image{
+    width:300px;
+    transform: rotate(-45deg);
+    border-radius:50%;
+    overflow: hidden;
+    margin-left: 400px;
+}
+
+#Andrew-James{
+    height:300px;
+}
+
+#Andrew-James .description{
+    margin-left: 100px;
+}
+
+.pictures{
+    background-color: #E9E9DB;
+}
+
+.new-gallery{
+    height:1052px;
+    background-color: #2C2D26;
+    color:white;
+}
+
+.new-gallery .small h2{
+text-align: center;
+padding-top:40px;
+font-size:83px;
+}
+
+.All-gallery{
+    width:90px;
+    height:35px;
+    border:2px solid #E9E9DB;
+    text-align: center;
+    border-radius:50%;
+    padding-top: 3px;
+    margin:auto;
+    margin-top:50px;
+}
+
+.footer{
+    background-color: #2C2D26;
+    height:500px;
+    color:white;
+    text-align: center;
+    font-family:'Futura LT';
+}
+
+.footer h2{
+    font-family:'Futura LT';
+    font-size:73px;
+    padding-top:65px;
+}
+
+.footer p{
+    font-size:16px;
+}
+
+.social img{
+    margin-left:27px;
+}
+
+.footer-line div{
+    display: inline-block;
+    margin-top:40px;
+    margin-right:100px;
+    vertical-align: top;
+
+}
+
+.footer a{
+    color: dimgray;
+}
+
+.footer-line p{
+text-align:left;
+}
+
+.footer-line{
+    width:1000px;
+    margin:auto;
+}
+
+.amp-art{
+    height:1263px;
+    background-color:#A54C48;
+    position:relative;
+    overflow:hidden;
+}
+    
+
+
+.cotopaxi{
+    left:91px;
+    width:389px;
+    height:389px;
+    position: relative;
+}
+
+.cotopaxi img{
+    border-radius:0px 100% 0px 0px;
+    width:389px;
+    height:389px;
+}
+
+.Jean-Auguste{
+    width:419px;
+    left:620px;
+    bottom:400px;
+    position: relative;
+}
+
+.Jean-Auguste img{
+    border-radius:50% 50% 50% 50%;
+}
+
+.palm{
+    width:362px;
+    margin-bottom: 300px;
+    left:1230px;
+    position: relative;
+}
+
+.palm img{
+    border-radius:45% 45% 0% 0%;
+}
+
+.rose{
+    width:315px;
+    height:203px;
+    right:84px;
+    bottom:71px;
+    position: relative;
+}
+
+.rose img{
+    height:203px;
+    border-radius:300px 300px 0px 0px;
+}
+
+.cotopaxi, .Jean-Auguste, .rose, .palm{
+position:absolute;
+}
+
+.AA{
+    color:#B0695D;
+    text-align:center;
+    font-size: 274px;
+}
+
+.celebrate{
+    width:286px;
+    height:90px;
+    margin-left:173px;
+}
+
+.celebrate h2{
+    font-size:55px;
+    color:#E9E9DB;
+}
+
+.year{
+    color:#E9E9DB;
+    width:694px;
+}
+
+.year h2{
+    font-size:188px;
+    display: inline-block;
+    margin-left:173px;
+    margin-top:20px;
+}
+
+.year h3{
+    font-size: 85px;
+    display: inline-block;
+    margin-top:20px;
+}
+
+.adv{
+    position:absolute;
+    bottom:71px;
+}
+
+.cotopaxi:before{
+    position: absolute;
+    content: "1857";
+    bottom:-35px;
+    color:#E9E9DB;
+    font-family:'Emilea';
+}
+
+.cotopaxi:after{
+    position: absolute;
+    content:"View of Cotopaxi";
+    bottom:-35px;
+    right:2px;
+    color:#E9E9DB;
+    font-family:'Emilea';
+}
+
+.Jean-Auguste:before{
+    position: absolute;
+    color:#E9E9DB;
+    font-family:'Emilea';
+    content:"1823";
+    bottom:20px;
+}
+
+.Jean-Auguste::after{
+    position: absolute;
+    color:#E9E9DB;
+    font-family:'Emilea';
+    content: "Amédée-David";
+    bottom:-35px;
+    right:-10px;
+}
+
+.palm:before{
+    position: absolute;
+    color:#E9E9DB;
+    font-family:'Emilea';
+    content:"1834";
+    bottom:-35px;
+    font-size:13px;
+}
+
+.palm:after{
+    content:"The Interior of the Palm House";
+    position: absolute;
+    color:#E9E9DB;
+    font-family:'Emilea';
+    bottom:-35px;
+    right:85px;
+    font-size:13px;
+}
+
+.rose:before{
+    position: absolute;
+    color:#E9E9DB;
+    font-family:'Emilea';
+    content:"1885";
+    bottom:-35px;
+}
+
+.rose:after{
+    position: absolute;
+    color:#E9E9DB;
+    font-family:'Emilea';
+    content:"Magnolias";
+    bottom:-35px;
+    right:-0px;
+}
+
+.american-gothic{
+    height:1906px;
+    background-color:#E9E9DB;
+}
+
+.head div{
+    display:inline-block;
+    height:10px;
+    padding-left:48px;
+    font-size:18px;
+}
+
+.head{
+    margin-left:331px;
+    padding-top:68px;
+}
+
+.search h2, img{
+    display:inline-block;
+}
+
+.search img{
+    padding-right:22px;
+    padding-left:231px;
+}
+
+hr{
+    border: 1px solid #202217;
+    width:1075px;
+    margin-left:370px;
+}
+
+.card-picture img{
+    width:296px;
+    border-radius:0px 160px;
+}
+
+.card{
+    position:relative;
+    width:300px;
+}
+
+.card-picture{
+    position: relative;
+}
+
+.card-picture:before{
+    position: absolute;
+    content:"1631";
+    bottom:-25px;
+    left: 0px;
+}
+
+.card-picture:after{
+    position: absolute;
+    content:"Rembrandt Harmensz. van Rijn";
+    bottom:-25px;
+    left: 90px;
+}
+
+.card-description p{
+    margin-top:14px;
+}
+
+.card-description{
+    margin-top: 34px;
+}
+
+.cards .card{
+    display: inline-block;
+}
+
+
+
+
+.card-picture-vangogh img{
+    width:296px;
+    border-radius:160px 160px 0px 0px;
+}
+
+.card{
+    position:relative;
+    width:300px;
+    margin-left:50px;
+}
+
+.card-picture-vangogh{
+    position: relative;
+}
+
+.card-picture-vangogh:before{
+    position: absolute;
+    content:"1887";
+    bottom:-25px;
+    left: 0px;
+}
+
+.card-picture-vangogh:after{
+    position: absolute;
+    content:"Vincent van Gogh";
+    bottom:-25px;
+    left: 180px;
+}
+
+.card-description-vangogh p{
+    margin-top:14px;
+}
+
+.card-description-vangogh{
+    margin-top: 34px;
+}
+
+
+
+.card-picture-three img{
+    width:296px;
+    border-radius:160px 0px;
+}
+
+.card{
+    position:relative;
+    width:300px;
+}
+
+.card-picture-three{
+    position: relative;
+}
+
+.card-picture-three:before{
+    position: absolute;
+    content:"1881";
+    bottom:-25px;
+    left: 0px;
+}
+
+.card-picture-three:after{
+    position: absolute;
+    content:"Pierre-Auguste Renoir";
+    bottom:-25px;
+    right:0px;
+}
+
+.card-description-three p{
+    margin-top:14px;
+}
+
+.card-description-three{
+    margin-top: 34px;
+}
+
+.cards{
+    width:1060px;
+    margin:auto;
+    margin-top:60px;
+    margin-right:280px;
+}
+
+.big h2{
+    font-size:237px;
+}
+
+.big{
+    width:100%;
+    height:249px;
+    box-sizing: border-box;
+    color:#31312d;
+    bottom:10px;
+}
+
+.foot{
+    margin-top:-160px;
+}
+
+.american-image img{
+    width:1075px;
+    margin-left: 370px;
+    margin-top: 50px;
+}
+
+.american-image{
+    position: relative;
+}
+
+.american-image:before{
+    position: absolute;
+    content: "AMERICAN";
+    color:#E9E9DB;
+    left:360px;
+    top:100px;
+    font-size: 157px;
+    font-family:'Futura LT' ;
+}
+
+.american-image:after{
+    position: absolute;
+    content: "GOTHIC";
+    color:#E9E9DB;
+    left:855px;
+    top:700px;
+    font-size: 157px;
+    font-family:'Futura LT' ;
+}
+
+.LAMDA p{
+    font-size:182px;
+}
+
+.LAMDA{
+    transform: rotate(-90deg);
+    position:absolute;
+    bottom:20px;
+    left:-235px;
+}
+
+.the-aq-art span{
+    color :black;
+}
+
+.the-aq-art {
+    color:#D2564F;
+}
+
+.the-aq-art{
+    font-size:134px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.aq-text{
+    width:390px;
+    font-size:13px;
+    margin-top:35px;
+}
+
+.aq-title{
+    margin-top:64px;
+    font-size: 31px;
+}
+
+.the-aq-artist{
+    margin-left:195px;
+    margin-top:25px;
+}
+.the-aq-artist div{
+    display:inline-block;
+}
+
+.vase{
+    margin-left:87px;
+    position: relative;
+    z-index:1;
+}
+
+.man{
+    width:229px;
+    transform: rotate(15deg);
+    position: relative;
+    z-index: 0;
+}
